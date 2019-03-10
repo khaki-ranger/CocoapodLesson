@@ -8,8 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		235CA4E6A61E7A9534135EE8 /* Pods_CocoapodLesson.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 559866E1FC56FB48CDE7E703 /* Pods_CocoapodLesson.framework */; };
+		D19B9BE322350CAE00079BB8 /* IntroSecondController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B9BE222350CAE00079BB8 /* IntroSecondController.swift */; };
+		D19B9BE522350CE100079BB8 /* IntroThirdController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19B9BE422350CE100079BB8 /* IntroThirdController.swift */; };
 		D1EBA87B2233CAB40071B4C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EBA87A2233CAB40071B4C0 /* AppDelegate.swift */; };
-		D1EBA87D2233CAB40071B4C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EBA87C2233CAB40071B4C0 /* ViewController.swift */; };
+		D1EBA87D2233CAB40071B4C0 /* IntroFirstController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1EBA87C2233CAB40071B4C0 /* IntroFirstController.swift */; };
 		D1EBA8802233CAB40071B4C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EBA87E2233CAB40071B4C0 /* Main.storyboard */; };
 		D1EBA8822233CAB60071B4C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D1EBA8812233CAB60071B4C0 /* Assets.xcassets */; };
 		D1EBA8852233CAB60071B4C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1EBA8832233CAB60071B4C0 /* LaunchScreen.storyboard */; };
@@ -19,9 +21,11 @@
 		49DEB8617494385E4CCDCFF1 /* Pods-CocoapodLesson.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodLesson.release.xcconfig"; path = "Target Support Files/Pods-CocoapodLesson/Pods-CocoapodLesson.release.xcconfig"; sourceTree = "<group>"; };
 		50ECCFBEA9848D6CC5B7BE51 /* Pods-CocoapodLesson.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CocoapodLesson.debug.xcconfig"; path = "Target Support Files/Pods-CocoapodLesson/Pods-CocoapodLesson.debug.xcconfig"; sourceTree = "<group>"; };
 		559866E1FC56FB48CDE7E703 /* Pods_CocoapodLesson.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CocoapodLesson.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19B9BE222350CAE00079BB8 /* IntroSecondController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroSecondController.swift; sourceTree = "<group>"; };
+		D19B9BE422350CE100079BB8 /* IntroThirdController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroThirdController.swift; sourceTree = "<group>"; };
 		D1EBA8772233CAB40071B4C0 /* CocoapodLesson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CocoapodLesson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1EBA87A2233CAB40071B4C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D1EBA87C2233CAB40071B4C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D1EBA87C2233CAB40071B4C0 /* IntroFirstController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroFirstController.swift; sourceTree = "<group>"; };
 		D1EBA87F2233CAB40071B4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D1EBA8812233CAB60071B4C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1EBA8842233CAB60071B4C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -70,7 +74,9 @@
 			isa = PBXGroup;
 			children = (
 				D1EBA87A2233CAB40071B4C0 /* AppDelegate.swift */,
-				D1EBA87C2233CAB40071B4C0 /* ViewController.swift */,
+				D1EBA87C2233CAB40071B4C0 /* IntroFirstController.swift */,
+				D19B9BE222350CAE00079BB8 /* IntroSecondController.swift */,
+				D19B9BE422350CE100079BB8 /* IntroThirdController.swift */,
 				D1EBA87E2233CAB40071B4C0 /* Main.storyboard */,
 				D1EBA8812233CAB60071B4C0 /* Assets.xcassets */,
 				D1EBA8832233CAB60071B4C0 /* LaunchScreen.storyboard */,
@@ -85,7 +91,6 @@
 				50ECCFBEA9848D6CC5B7BE51 /* Pods-CocoapodLesson.debug.xcconfig */,
 				49DEB8617494385E4CCDCFF1 /* Pods-CocoapodLesson.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -163,15 +168,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-CocoapodLesson-checkManifestLockResult.txt",
 			);
@@ -185,15 +186,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-CocoapodLesson/Pods-CocoapodLesson-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/PGEZTransition/PGEZTransition.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PGEZTransition.framework",
 			);
@@ -209,7 +206,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D1EBA87D2233CAB40071B4C0 /* ViewController.swift in Sources */,
+				D19B9BE522350CE100079BB8 /* IntroThirdController.swift in Sources */,
+				D1EBA87D2233CAB40071B4C0 /* IntroFirstController.swift in Sources */,
+				D19B9BE322350CAE00079BB8 /* IntroSecondController.swift in Sources */,
 				D1EBA87B2233CAB40071B4C0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

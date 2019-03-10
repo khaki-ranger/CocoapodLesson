@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import PGEZTransition
 
-class ViewController: UIViewController {
+class IntroFirstController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
